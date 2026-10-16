@@ -1,0 +1,50 @@
+# 本地环境与构建产物
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+build-*/
+dist/
+dist-*/
+release/
+*.egg-info/
+
+# 密钥、环境配置与运行数据（不得提交）
+.env
+.env.*
+!.env.example
+*.dpapi
+*.key
+*.pem
+*.pfx
+*.p12
+settings.json
+history.sqlite3*
+*.db
+*.sqlite*
+screenshots/
+diagnostic.log*
+*.log
+instance.lock
+
+# 私人附件/图片/OCR/评测不随公开仓库发布
+attachments/
+uploads/
+private/
+evaluation/
+tests/fixtures/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.zip
+
+# 本机编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
